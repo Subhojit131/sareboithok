@@ -127,7 +127,7 @@ const Signup = () => {
                 <a
                     className="ml-[88px] login-form-forgot"
                     href=""
-                    style={{color: "white"}}
+                    style={{color: "white",marginLeft:"100px"}}
                 >
                     Forgot password
                 </a>
@@ -139,13 +139,15 @@ const Signup = () => {
                     type="primary"
                     block
                     className="mb-5 text-black bg-white"
+                    style={{ marginLeft: '0px',backgroundColor:"red"}}
                 >
                     Submit
                 </Button>
-                <span style={{color:"white"}}>Or</span>
+                <span style={{color:"white",marginLeft:"150px"}}>Or</span>
                 <br />
-                <a href="/login" className="mt-3 text-blue-500 underline">
+                <a href="/login" className="mt-3 text-blue-500 underline" style={{marginLeft:"25px",color:"red"}}>
                     Already have an account, login to continue!
+                    
                 </a>
             </Form.Item>
         </Form>

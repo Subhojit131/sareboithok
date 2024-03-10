@@ -84,11 +84,12 @@ const Login = () => {
                     type="primary"
                     block
                     className="mb-3 text-black bg-white"
+                    style={{ marginLeft: '0px',backgroundColor:"red" }}
                 >
                     Submit
                 </Button>
-                <span style={{color: "white"}}>Or</span> &nbsp;
-                <a href="/signup" className="text-blue-500 underline">
+                <span style={{color: "white",marginLeft:"70px",}}>Or</span> &nbsp;
+                <a href="/signup" className="text-blue-500 underline" style={{color:"red"}}>
                     Register now!
                 </a>
             </Form.Item>

@@ -15,7 +15,7 @@ app.use(cors({
 
 app.use('/', userRouter)
 
-const DB = 'mongodb://localhost:7001/login?readPreference=primary&ssl=false&directConnection=true';
+const DB = 'mongodb://localhost:27017/login?readPreference=primary&ssl=false&directConnection=true';
 
 mongoose.connect(DB).then(() => {
     console.log("Connection Successful")

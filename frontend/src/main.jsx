@@ -8,6 +8,9 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 import Login from './pages/Login.jsx';
 import Signup from "./pages/Signup.jsx";
+import VideoPlayer from "./pages/VideoPlayer.jsx"; 
+import Wishlist from "./pages/Wishlist.jsx"
+
 
 const router = createBrowserRouter([
     {
@@ -21,6 +24,14 @@ const router = createBrowserRouter([
     {
         path:'/login',
         element:<Login/>
+    },
+    {
+        path:'/video',
+        element:<VideoPlayer/>
+    },
+    {
+        path:'/wishlist',
+        element:<Wishlist/>
     }
 ])
 
