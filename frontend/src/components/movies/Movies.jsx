@@ -13,7 +13,7 @@ const Movies = () => {
     const searchMovie = async (e) => {
         e.preventDefault();
 
-        const API_KEY = "52d37796";
+        const API_KEY = "YOUR_API_KEY";
         const apiURI = `https://www.omdbapi.com/?i=tt3896198&apikey=${API_KEY}&s=${query}`;
 
         try {
